@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Xperia 3",
+      "brand": "Sony",
+      "price": "360"
+    },
+    {
+      "id": "2",
+      "name": "Samsung S22",
+      "brand": "Samsung",
+      "price": "250"
+    },
+    {
+      "id": "3",
+      "name": "IPhone 14",
+      "brand": "Apple",
+      "price": "700"
+    },
+    {
+      "id": "4",
+      "name": "Vertu Phantom",
+      "brand": "Vertu",
+      "price": "1200"
+    },
+    {
+      "name": "Iphone 13 Pro",
+      "brand": "Apple",
+      "price": "799",
+      "id": "tiaVIAO"
+    },
+    {
+      "id": "6",
+      "name": "Phantom",
+      "brand": "Vertu",
+      "price": "1400"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Pham Chinh",
+      "company": "HUST"
+    },
+    {
+      "id": "2",
+      "name": "Nguyen Van Ky",
+      "company": "HUST"
+    }
+  ]
+}
