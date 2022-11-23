@@ -4,11 +4,12 @@ import simpleRestProvider from 'ra-data-simple-rest'
 import AdminPanel from './components/AdminPanel.js'
 import { listProducts, editProduct, createProduct } from './components/Products.js'
 import { listUsers, editUser, createUser } from './components/Users.js'
+import { authProvider } from './AuthProvider.js'
 
 function App() {
 	return (
 		<div className='App'>
-			<Admin dashboard={AdminPanel} dataProvider={simpleRestProvider('http://localhost:3000')}>
+			<Admin dashboard={AdminPanel} authProvider={authProvider} dataProvider={simpleRestProvider('http://localhost:3000')}>
 				<Resource
 					name='products'
 					list={listProducts}
